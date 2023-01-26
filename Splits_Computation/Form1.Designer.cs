@@ -132,7 +132,7 @@
             // chkChunkify
             // 
             this.chkChunkify.AutoSize = true;
-            this.chkChunkify.Location = new System.Drawing.Point(12, 116);
+            this.chkChunkify.Location = new System.Drawing.Point(12, 181);
             this.chkChunkify.Name = "chkChunkify";
             this.chkChunkify.Size = new System.Drawing.Size(67, 17);
             this.chkChunkify.TabIndex = 8;
@@ -143,7 +143,7 @@
             // numUDChunkify
             // 
             this.numUDChunkify.Enabled = false;
-            this.numUDChunkify.Location = new System.Drawing.Point(93, 115);
+            this.numUDChunkify.Location = new System.Drawing.Point(93, 180);
             this.numUDChunkify.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -217,7 +217,7 @@
             // lblResetIterations
             // 
             this.lblResetIterations.AutoSize = true;
-            this.lblResetIterations.Location = new System.Drawing.Point(9, 139);
+            this.lblResetIterations.Location = new System.Drawing.Point(9, 118);
             this.lblResetIterations.Name = "lblResetIterations";
             this.lblResetIterations.Size = new System.Drawing.Size(80, 13);
             this.lblResetIterations.TabIndex = 15;
@@ -226,7 +226,7 @@
             // 
             // numUDResetIterations
             // 
-            this.numUDResetIterations.Location = new System.Drawing.Point(93, 137);
+            this.numUDResetIterations.Location = new System.Drawing.Point(93, 116);
             this.numUDResetIterations.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -245,6 +245,7 @@
             0,
             0,
             0});
+            this.numUDResetIterations.ValueChanged += new System.EventHandler(this.numUDResetIterations_ValueChanged);
             // 
             // lblWorking
             // 
@@ -260,7 +261,7 @@
             // lblPBChanceStartSplit
             // 
             this.lblPBChanceStartSplit.AutoSize = true;
-            this.lblPBChanceStartSplit.Location = new System.Drawing.Point(9, 160);
+            this.lblPBChanceStartSplit.Location = new System.Drawing.Point(10, 139);
             this.lblPBChanceStartSplit.Name = "lblPBChanceStartSplit";
             this.lblPBChanceStartSplit.Size = new System.Drawing.Size(85, 13);
             this.lblPBChanceStartSplit.TabIndex = 18;
@@ -269,7 +270,7 @@
             // 
             // numUDPBChanceSplit
             // 
-            this.numUDPBChanceSplit.Location = new System.Drawing.Point(93, 158);
+            this.numUDPBChanceSplit.Location = new System.Drawing.Point(93, 137);
             this.numUDPBChanceSplit.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -293,7 +294,7 @@
             // lblPBChanceTime
             // 
             this.lblPBChanceTime.AutoSize = true;
-            this.lblPBChanceTime.Location = new System.Drawing.Point(9, 183);
+            this.lblPBChanceTime.Location = new System.Drawing.Point(9, 162);
             this.lblPBChanceTime.Name = "lblPBChanceTime";
             this.lblPBChanceTime.Size = new System.Drawing.Size(86, 13);
             this.lblPBChanceTime.TabIndex = 20;
@@ -301,7 +302,7 @@
             // 
             // txtPBChanceTime
             // 
-            this.txtPBChanceTime.Location = new System.Drawing.Point(93, 180);
+            this.txtPBChanceTime.Location = new System.Drawing.Point(93, 159);
             this.txtPBChanceTime.Name = "txtPBChanceTime";
             this.txtPBChanceTime.Size = new System.Drawing.Size(100, 20);
             this.txtPBChanceTime.TabIndex = 0;

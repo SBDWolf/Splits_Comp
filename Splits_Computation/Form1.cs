@@ -179,7 +179,7 @@ namespace Splits_Computation
 
         private void chkLinearDecay_CheckedChanged(object sender, EventArgs e)
         {
-
+            numUDWeight.Enabled = !chkLinearDecay.Checked;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -269,6 +269,11 @@ namespace Splits_Computation
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numUDResetIterations_ValueChanged(object sender, EventArgs e)
         {
 
         }

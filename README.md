@@ -17,8 +17,6 @@ The recency weight value refers to geometric decay. It is used to determine how 
 
 You can also tick the Linear decay checkbox to use linear decay for recency weighing, instead.
 
-The Chunkify option can speed up the process at the cost of accuracy. The higher the value, the faster and less accurate it should be.
-
 Reset iterations is used in the Reset calculation.
 
 For "Sim Chance", you have to provide a starting point from which to calculate a chance of beating the target time.
@@ -28,6 +26,8 @@ Sim Chance split is the split index number (non-0-index).
 Sim Chance time is the time achieved at that split index.
 
 So for example, if you wanted to calculate the odds of beating the target time after getting a 01:20:34 at split 15, Sim Chance split would be 15, and Sim Chance time would be 01:20:34.
+
+The Chunkify option can speed up the process of simulating runs at the cost of accuracy. The higher the value, the faster and less accurate it should be.
 
 ---
 If you want to build from source, you will have to manually place the comp.py and execute.bat files in the same directory where the final .exe would be.

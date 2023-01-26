@@ -28,3 +28,6 @@ Sim Chance split is the split index number (non-0-index).
 Sim Chance time is the time achieved at that split index.
 
 So for example, if you wanted to calculate the odds of beating the target time after getting a 01:20:34 at split 15, Sim Chance split would be 15, and Sim Chance time would be 01:20:34.
+
+---
+If you want to build from source, you will have to manually place the comp.py and execute.bat files in the same directory where the final .exe would be.
